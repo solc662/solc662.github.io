@@ -1,0 +1,510 @@
+/* Media Queries */
+
+/* Como quiero que se vea cuando es desktop */
+body {
+    background-color: #b83ad1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c33bdf;
+}
+
+footer {
+background-color: #b83ad1;}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.logo img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    flex-direction: row;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247, 248, 248);
+    font-size: larger;
+}
+
+.inicio {
+    display: flex;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+
+.cajainicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cajainicio img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quienesomos {
+    display: flex;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+
+.cajaqs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(110, 63, 155);
+}
+
+
+.cajamv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.quienesomos img {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.quehacemos {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+
+.quehacemos img {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorqh1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(110, 63, 155);
+}
+
+.contenedorqh1 img {
+    width: 300px;
+}
+
+.contenedorqh2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(110, 63, 155);
+}
+
+.contenedorqh2 img {
+    width: 300px;
+}
+
+.adopta {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+
+.cajap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajap img {
+    width: 500px;
+    height: 500px;
+}
+
+.cajap2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(110, 63, 155);
+}
+
+.donayapoya { display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+
+.donayapoya img {width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiktok a { text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contenedorda {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(110, 63, 155);
+}
+
+.cajada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.contacto {display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d6bfbf;
+    background-color: rgb(163, 93, 228);
+    width: 100%
+}
+.contacto a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Como quiero que se vea cuando es mobile */
+
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-top: 20px;
+
+
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(253, 251, 251);
+
+    }
+
+    .inicio {
+        display: flex;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+    }
+
+    .cajainicio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cajainicio img {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quienesomos {
+        display: flex;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+    }
+
+    .cajaqs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(110, 63, 155);
+    }
+
+
+    .cajamv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .quienesomos img {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .quehacemos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+    }
+
+    .cajaqh {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quehacemos img {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedorqh1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgb(110, 63, 155);
+    }
+
+
+
+    .contenedorqh2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgb(110, 63, 155);
+    }
+
+    .adopta {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+    }
+
+    .cajap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajap img {
+        width: 250px; height: 300px;
+    }
+
+    .cajap2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .contenedorap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(110, 63, 155);
+    }
+
+    .donayapoya { display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+    }
+    
+    .donayapoya img {width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tiktok a { text-decoration: none;
+        color: aliceblue;
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    
+    .contenedorda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(110, 63, 155);
+    }
+    
+    .cajada {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contacto {display: flex;
+        justify-content: center;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #d6bfbf;
+        background-color: rgb(163, 93, 228);
+        width: 100%
+
+    }
+}
